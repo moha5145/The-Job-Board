@@ -1,38 +1,141 @@
 .App {
-  text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.header {
+  background-color: black;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100px;
+  margin: 0 auto;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header h1 {
+  /* width: 263px; */
+  height: 47px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100px;
+  text-align: center;
+
+  color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ***** Jobs ***** */
+
+.container {
+  margin: 0 auto;
+  max-width: 1020px;
+}
+.jobs {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.job {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+  background: #ffffff;
+}
+.rectangle-1,
+.rectangle-2,
+.rectangle-3,
+.rectangle-4,
+.rectangle-5,
+.rectangle-6,
+.rectangle-7,
+.rectangle-8,
+.rectangle-9 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rectangle-1 {
+  border: 10px solid #e30413;
+}
+
+.rectangle-2 {
+  border: 10px solid #3ea535;
+}
+
+.rectangle-3 {
+  border: 10px solid #ffee00;
+}
+
+.rectangle-4 {
+  border: 10px solid #039fe3;
+}
+
+.rectangle-5 {
+  border: 10px solid #f8c5af;
+}
+.rectangle-6 {
+  border: 10px solid #e30413;
+}
+.rectangle-7 {
+  border: 10px solid #3ea535;
+}
+
+.rectangle-8 {
+  border: 10px solid #ffee00;
+}
+
+.rectangle-9 {
+  border: 10px solid #039fe3;
+}
+
+.title {
+  margin-left: 19px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+.job span {
+  margin: 19px;
+}
+.contractType,
+.country,
+.city {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+/* **** footer ***** */
+.footer {
+  height: 63px;
+  background: #dddddd;
+}
+
+.footer > p {
+  text-align: center;
+
+  line-height: 63px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+.footer span {
+  font-weight: bold;
 }
